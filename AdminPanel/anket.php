@@ -25,6 +25,18 @@ require("menu2.php");
       
       if ($tablo->num_rows > 0) 
       {
+    ?>
+        <table  class="table table-striped table-hover">
+        <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Soru</th>
+              <th scope="col">Açıklama</th>
+              <th scope="col">Seçenek 1</th>
+              <th scope="col">Seçenek 2</th>
+              <th scope="col">Seçenek 3</th>
+              <th scope="col">Seçenek 4</th>
+              <th scope="col">Oluşturma Zamanı</th>
               <th scope="col">Oluşturan</th>
               <th scope="col">Düzenleme Zamanı</th>
               <th scope="col">Düzenleyen</th>
